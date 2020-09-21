@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/normalbggg"
+    tools:context=".VsComputerActivity">
+
+    <ImageView
+        android:id="@+id/image_view_name"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ticticticnobg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        tools:ignore="ContentDescription" />
+
+    <GridLayout
+        android:padding="16dp"
+        android:alignmentMode="alignBounds"
+        android:useDefaultMargins="true"
+        android:layout_centerInParent="true"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:id="@+id/layout_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginBottom="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button_restart"
+        android:textAllCaps="false"
+        android:text="@string/reset"
+        android:layout_width="120dp"
+        android:layout_height="58dp"/>
+
+</RelativeLayout>

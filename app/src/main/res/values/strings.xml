@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="splash_icon">Splash Icon</string>
+    <string name="v_s_player">PLAYER V/S PLAYER\t\t</string>
+    <string name="v_s_computer">PLAYER V/S COMPUTER\t\t</string>
+    <string name="normal_mode">NORMAL MODE\t\t</string>
+    <string name="kids_mode">KIDS MODE\t\t</string>
+    <string name="couples_mode">COUPLES MODE\t\t</string>
+    <string name="reset">Reset</string>
+</resources>
