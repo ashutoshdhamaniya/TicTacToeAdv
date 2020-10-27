@@ -3,7 +3,7 @@
 
 TIC TAC TOE with different themes is here.
 
-Play the game in different attractive modes like kids mode, couples mode.
+Play the game in different attractive modes like normal mode, kids mode etc.
 
 <p float="left">
   <img src="https://github.com/ashutoshdhamaniya/images/blob/main/tictactoe2.jpg" width="175px" height="350px">
